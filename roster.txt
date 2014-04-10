@@ -1,7 +1,11 @@
 name, email, github
 Renée Hendricksen, renee@nird.us, reneedv
 <<<<<<< HEAD
+<<<<<<< HEAD
 Andrea Nelson, aerd@live.com, aerd
 =======
 Matthew Viens, Matthew.J.Viens@gmail.com, MatthewViens
 >>>>>>> 790c113a30847fb145160579fac325a1cf65c7d8
+=======
+Cheri Allen, cheri@nird.us, cherimarie
+>>>>>>> d380ad241fd68548202940788ba88a9a41ee38ec
