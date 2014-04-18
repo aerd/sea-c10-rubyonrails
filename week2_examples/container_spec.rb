@@ -6,12 +6,27 @@ describe Container do
     @container = Container.new 3.42, 'bright pink'
   end
 
+  context "::container_count" do
+
+    it "should count how many container instances exist" do
+      Container.new 5, 'red'
+      Container.new 3, 'blue'
+      Container.container_count.should eq 3
+
+    end
+
+  end
+
+
+
   it "should have a volume" do
     @container.should respond_to :volume
   end
 
-  it "should have the volume set already " do
-    @container.volume.should eq 3.42
+  context "#volume" do
+    it "should have the volume set already " do
+      @container.volume.should eq 3.42
+    end
   end
 
   it "should have the color set already " do
