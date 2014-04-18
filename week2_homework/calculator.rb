@@ -11,7 +11,7 @@ class Calculator
   def multiply *numbers
   	total = 1
   	numbers.flatten.each do |i|
-  		total *= i
+  	  total *= i
   	end
   	return total
   end
@@ -23,11 +23,11 @@ class Calculator
 
   def fac (x)
   	total = 1
-	  	while x > 0 do
-	  		total = total * x
-	  		x -= 1 
-	  	end
+	  while x > 0 do
+	    total = total * x
+	    x -= 1 
+	  end
     return total
-	end
+  end
 
 end
