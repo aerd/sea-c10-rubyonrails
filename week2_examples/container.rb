@@ -1,3 +1,4 @@
+$im_global = "Hello Global World"
 class Container
   # Refactor 2
   attr_accessor :volume, :color, :name, :contents
