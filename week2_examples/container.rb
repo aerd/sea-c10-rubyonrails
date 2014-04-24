@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 $im_global = "Hello Global World"
+=======
+require_relative 'db_adapter'
+
+>>>>>>> 4b57aec2ced0a69b9cd12147704ae71b78b277db
 class Container
+  include DbAdapter
+
+  DONT_CHANGE_ME = "I'm not supposed to change"
   # Refactor 2
   attr_accessor :volume, :color, :name, :contents
 
@@ -26,6 +34,13 @@ class Container
 
   def full?
     @full
+<<<<<<< HEAD
+=======
+  end
+
+  def whats_global
+    $im_global = "Hello Global World!"
+>>>>>>> 4b57aec2ced0a69b9cd12147704ae71b78b277db
   end
 
 

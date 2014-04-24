@@ -44,7 +44,7 @@ puts $monsters.count{ |m| m[:legs] == 2 }
 puts "How many monsters are nocturnal?"
 puts $monsters.count{|m| m[:nocturnal] == true }
 puts "What are the names of the monsters that are nocturnal?"
-puts $monsters.select{|m| m[:nocturnal] == true}.map{|m| m[:name]}
+puts $monsters.select{|m| m[:nocturnal]== true}.map{|m| m[:name]}
 puts "How many legs do all our monsters have?"
 puts $monsters.map {|m| m[:legs]}.inject (:+)
 puts "What are the 2 most common dangers of our monsters?"
